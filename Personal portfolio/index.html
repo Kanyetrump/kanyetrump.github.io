@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+            <title>Personal Portfolio</title>
+            <link rel="stylesheet" href="style.css">
+            <script src="https://kit.fontawesome.com/06c5b6573f.js" crossorigin="anonymous"></script>
+        </head>
+        <body>
+            <div id="header">
+                <div class="container">
+                    <nav>
+                        <img src="images/logo.PNG" class="logo">
+                        <ul id="sidemenu">
+                            <li><a href="#header">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+                        </ul>
+                        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                    </nav>
+                    <div class="header-text">
+                        <p>Neon Signage Designer/Student</p>
+                        <h1>Hi, I'm <span>Donald<br>Muyezwa</span> From Africa University.</h1>
+                    </div>
+                </div>
+            </div>
+            <!--------------about--------------->
+            <div id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="about-col-1">
+                            <img src="images/user.PNG">
+                        </div>
+                            <div class="about-col-2">
+                                <h1 class="sub-title">About Me</h1>
+                                <p>Hello, I'm Donald Muyezwa, a 22-year-old Zimbabwean student with a passion for both computer science and neon signage design.
+                                     Currently studying at Africa University, I am pursuing a degree in computer science while simultaneously exploring and honing my skills as a neon signage designer.
+                                     I find great joy in blending my technical knowledge with my artistic sensibilities to create stunning and captivating neon designs.
+                                     While my academic focus lies in computer science, I have always had a deep appreciation for aesthetics and visual art. Neon signage design allows me to combine my love for technology with my innate creativity.
+                                      I am fascinated by the way light interacts with different materials and how it can transform a space, evoking emotions and leaving a lasting impact on viewers.
+                                      As a student, I am always eager to learn and grow. I actively seek out opportunities to expand my knowledge and skills, whether through workshops, online courses, or collaborating with fellow designers. I am driven by a strong desire to make a positive contribution to the world of design and leave a lasting legacy. With every project, I pour my passion, technical expertise, and attention to detail into creating neon signage that is both visually striking and conceptually rich.  </p>
+
+                                <div class="tab-titles"> 
+                                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>                                     
+                                    <p class="tab-links" onclick="opentab('experience')">Experience</p>                                   
+                                    <p class="tab-links" onclick="opentab('education')">Education</p> 
+                                    </div>
+                              <div class="tab-contents active-tab" id="skills">
+                                <ul>
+                                    <li><span>Neon Crafter</span><br>Designing Neon Siganges</li>
+                                    <li><span>Web Development</span><br>Web app Development</li>
+                                </ul>
+                              </div>
+                              <div class="tab-contents" id="experience">
+                                <ul>
+                                    <li><span>2023-Current</span><br>Computer Science Student at Africa
+                                         University</li>    
+                                </ul>
+                              </div>
+                              <div class="tab-contents" id="education">
+                                <ul>
+                                    <li><span>2019</span><br>Princeton Institute</li>
+                                </ul>
+                              </div>       
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!------------services--------->
+            <div id="services">
+                <div class="container">
+                    <h1 class="sub-title">My Services</h1>
+                    <div class="services-list">
+                        <div>
+                            <h2>Signage Design</h2>
+                            <P>Introducing our signage design services! We specialize in creating captivating and customized
+                                signages,including stunning neon signs.Let us bring your brand to life with our expertisein design,fabrication and installation.
+                            Contact us today!</P>
+                            <a href="#">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!---------------portfolio-------->
+            <div id="portfolio">
+                <div class="container">
+                    <h1 class="sub-title">My Work</h1>
+                    <div class="work-list">
+                    <div class="work">
+                        <img src="images/work-1.JPG">
+                        <div class="layer">
+                            <h3>Decoration signage</h3>
+                            <p>We also bring your imagination to life</p>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-2.JPG">
+                        <div class="layer">
+                            <h3>Name signage</h3>
+                            <p>Let light create  design.</p>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/work-3.JPG">
+                        <div class="layer">
+                            <h3>Business signage</h3>
+                            <p>Turn your business logo into an attractive signage.</p>
+                        </div>
+                    </div>
+                 </div>
+                 <a href="#" class="btn">See more</a>
+                </div>   
+            </div>
+            <!--------contact------>
+            <div id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="contact-left">
+                            <h1 class="sub-title">Contact Me</h1>
+                            <p><i class="fa-solid fa-paper-plane"></i>muyezwad@africau.edu</p>
+                            <p><i class="fa-solid fa-phone"></i>+263771882837</p>
+                            <div class="social-icons">
+                                <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                                <a href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
+                                <a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a>
+                            </div>
+                            <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                        </div>
+                        <div class="contact-right">
+                            <form name="submit-to-google-sheet">
+                                <input type="text" name="Name" placeholder="Your Name" required>
+                                <input type="email" name="email" placeholder="Your Email" required>
+                                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                                <button type="submit" class="btn btn2">Submit</button>
+                            </form>
+                            <span id="msg"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p>Copyright @ Donald.</p>
+                </div>
+            </div>
+
+            <script>
+
+                var tablinks = document.getElementsByClassName("tab-links");
+                var tabcontents = document.getElementsByClassName("tab-contents");
+
+                function opentab(tabname){
+                    for(tablink of tablinks){
+                        tablink.classList.remove("active-link");
+                    }
+                    for(tabcontent of tabcontents){
+                        tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+                }
+
+            </script>
+            <script>
+                var sidemenu = document.getElementById("sidemenu");
+
+                function openmenu(){
+                    sidemenu.style.right = "0";
+                }
+                function closemenu(){
+                    sidemenu.style.right = "-200px";
+                }
+            </script>
+            <script>
+                const scriptURL = 'https://script.google.com/macros/s/AKfycbzxsI3gu04nQUoJ-tcK--7TTrHLe3g535mZl69Jb9De7sZ5eTBADbkWWdrdPQx6DjEO/exec'
+                const form = document.forms['submit-to-google-sheet']
+                const msg = document.getElementById("msg")
+              
+                form.addEventListener('submit', e => {
+                  e.preventDefault()
+                  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                    .then(response => {
+                        msg.innerHTML = "Message sent successfully"
+                        setTimeout(function(){
+                            msg.innerHTML = ""
+                        },5000)
+                        form.reset()
+                    })
+                    .catch(error => console.error('Error!', error.message))
+                })
+              </script>
+
+
+
+        </body>
+
+            
+           
+               
